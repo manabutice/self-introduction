@@ -1,0 +1,52 @@
+/* body {
+  background-color: aqua;
+}
+
+li {
+  list-style-type: square;
+  margin: 10px;
+}
+
+a {
+  font-weight: bold;
+} */
+
+body{
+  background-color: rgb(250, 225, 215);
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+li::before{
+  content: "🐻";
+}
+li{
+  list-style: none;
+  margin: 10px;
+}
+a{
+  font-weight: bold;
+}
+
+p.sample1 {
+  width:300px; height:75px;
+  border-image: url("images/bg_dot.png") 15 round;
+  border-style:solid; border-width:10px;
+  }
+  p.sample2 {
+  width:300px; height:75px;
+  border-image: url("images/bg_dot.png") 15 round stretch;
+  border-style:solid; border-width:15px;
+  }
+  p.sample3 {
+  width:300px; height:75px;
+  border-image: url("images/bg_dot.png") 15;
+  border-style:solid; border-width:15px;
+  }
+  p.sample4 {
+  width:300px; height:75px;
+  border-image: url("images/bg_dot.png") 30;
+  border-style:solid; border-width:15px;
+  }
+  
